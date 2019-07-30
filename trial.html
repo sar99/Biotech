@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>
+		
+	</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		section{
+			width: 100%;
+			height: 100vh;
+		}
+		section.sec1{
+			position: relative;
+			overflow:hidden;
+			background: url(img/1.jpg);
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		section.sec1:before{
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: -50%;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			transform-origin: right;
+			transform: skewY(8deg);
+		}
+		section.sec1:after{
+			content: '';
+			position: absolute;
+			top: 100%;
+			right: -50%;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			transform-origin: left;
+			transform: skewY(-8deg);
+		}
+		section.sec3{
+			position: relative;
+			overflow:hidden;
+			background: url(img/3.png);
+			background-attachment: fixed;
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+		section.sec3:before{
+			content: '';
+			position: absolute;
+			bottom: 100%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+			transform-origin: left;
+			transform: skewY(8deg);
+		}
+		section.sec2{
+			height: auto;
+			padding: 100px;
+			box-sizing: border-box;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="header" id="header">
+		<img src="img/header.png" class="headerlogo" id="headerlogo">
+		<img src="img/textheader.png" id="textheader" class="textheader">
+	</div>
+
+	<div class="orange"></div>
+
+	<div class="nav1" id="nav1">
+		<ul class="nav nav-tabs" style="font-size: 1.2vmax;background-color: #ffae42;">
+		  <li class="nav-item">
+		    <a class="nav-link active" href="" style="border-top: 5px solid #171790;background-color: #ffe2ba;">About Us</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="faculty.html">Faculty</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="associations.html">Associations</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="facilities.html">Facilities</a>
+		  </li>
+		   <li class="nav-item">
+		    <a class="nav-link" href="activities.html">Activities</a>
+		  </li>
+		   <li class="nav-item">
+		    <a class="nav-link" href="placements.html">Placements</a>
+		  </li>
+		   <li class="nav-item">
+		    <a class="nav-link" href="conveyance.html">Conveyance</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="admissions.html">Admissions</a>
+		  </li>
+		</ul>
+
+	</div>
+
+	<div id="nav2" class="nav2">
+		
+		<div id="mySidebar" class="sidebar">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border-bottom: 0px solid white;font-size: 8vw;">×</a>
+		  <a href="faculty.html">Faculty</a>
+		  <a href="associations.html">Associations</a>
+		  <a href="facilities.html">Facilities</a>
+		  <a href="activities.html">Activities</a>
+		  <a href="placements.html">Placements</a>
+		  <a href="conveyance.html">Conveyance</a>
+		  <a href="admissions.html">Admissions</a>
+		</div>
+		<div id="main">
+		<button class="openbtn" onclick="openNav()" style="background-color: #ffae42;color: white;"><strong>☰ MENU</strong></button>  
+	</div>
+	</div>
+
+	<SECTION class="sec1"></SECTION>
+	<section class="sec2">
+	<h1>What is Lorem ipsum</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<h1>What is Lorem ipsum</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<section class="sec3"></section>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script>
+	function openNav() {
+	  document.getElementById("mySidebar").style.width = "50vw";
+	  document.getElementById("main").style.display = "none";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidebar").style.width = "0";
+	  document.getElementById("main").style.display= "block";
+	}
+	</script>
+	<script type="text/javascript" src="js/aos.js"></script>
+	<script type="text/javascript">
+		AOS.init();
+	</script>
+
+</body>
+</html>
