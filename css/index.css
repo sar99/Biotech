@@ -191,6 +191,10 @@ body{
 
 
 }
+.column > a{
+    color: #ffe2ba;
+
+}
 #column > p:first-child{
   color: #ffae42;
   text-decoration: underline #ffae42;

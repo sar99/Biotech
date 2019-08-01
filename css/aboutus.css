@@ -392,6 +392,18 @@ body{
 
 
 
+
+.past{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+
 .blue {
   height: 20px;
   background-color: #171790;
@@ -415,6 +427,10 @@ body{
   line-height: 1vmax;
   font-size: 1.2vmax;
 
+
+}
+.column > a{
+    color: #ffe2ba;
 
 }
 #column > p:first-child{

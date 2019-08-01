@@ -1,7 +1,10 @@
 body{
 	margin: 0;
 }
+.column > a{
+    color: #ffe2ba;
 
+}
 .whole{
   display: flex;
   flex-direction: column;
@@ -219,6 +222,41 @@ body{
 #dehbus > img{
   width: 7vw;
   padding-top: 2vh;
+}
+
+.photo1{
+display: none;
+}
+@media(max-width: 800px){
+  .photo{
+    display: none;
+  }
+  .photo1{
+    display: block;
+  }
+  #deltrain > img{
+  width: 10vw;
+}
+#dehtrain > img{
+  width: 10vw;
+}
+#delplane > img{
+  width: 10vw;
+  padding-top: 0vh;
+}
+#dehplane > img{
+  width: 10vw;
+  padding-top: 0vh;
+}
+#delbus > img{
+  width: 10vw;
+  padding-top: 0.2vh;
+}
+#dehbus > img{
+  width: 10vw;
+  padding-top: 0.2vh;
+}
+
 }
 
 .city

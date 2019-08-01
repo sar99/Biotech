@@ -1,7 +1,10 @@
 body{
 	margin: 0;
 }
+.column > a{
+    color: #ffe2ba;
 
+}
 .whole{
   display: flex;
   flex-direction: column;
