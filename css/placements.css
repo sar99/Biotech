@@ -34,6 +34,7 @@ body{
 }
 
 
+
 @media(max-width: 500px)
 {
   #header > img:first-child{
@@ -52,6 +53,14 @@ body{
 
   }
 }
+
+.past{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 
 .orange {
   height: 5px;
@@ -137,7 +146,7 @@ body{
   background: #ffae42;
   margin: 40px 0 0 ;
   padding: 5px 0;
-  font-size: 36px;
+  font-size: 23px;
   text-transform: uppercase;
   width: 430px;
   text-shadow: 0 5px 10px rgba(0,0,0,.05);
@@ -198,7 +207,7 @@ body{
 .timeline{
   width: 100%;
   height: auto;
-  margin: 50px auto 0;
+  margin: 2vh auto 0;
   padding: 20px;
   box-sizing: border-box;
 }

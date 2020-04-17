@@ -5,7 +5,7 @@ body{
 .whole{
   display: flex;
   flex-direction: column;
-  display: none;
+  display: block;
 }
 #header{
 	margin-bottom: 0.1%;
