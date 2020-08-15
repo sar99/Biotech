@@ -128,7 +128,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   text-align:center;
- padding: 20vh 0;
+  /* padding: 15vh 0; */
 }
 .page1{
   position: relative;

@@ -130,12 +130,13 @@ body{
 .box{
 
 
-  width: 400px;
+  width: 700px;
   height: auto;
   background: #262626;
   box-sizing: border-box;
   border-radius: 10px;
   margin: auto;
+  font-size: 17px;;
 }
 
 .box h3{
@@ -148,7 +149,7 @@ body{
   padding: 5px 0;
   font-size: 23px;
   text-transform: uppercase;
-  width: 430px;
+  width: 730px;
   text-shadow: 0 5px 10px rgba(0,0,0,.05);
 }
 @media(max-width: 464px)
@@ -202,6 +203,7 @@ body{
   padding: 0 20px;
   color: #fff;
   text-align: center;
+  font-size: 1.8vh;
 }
 
 .timeline{
