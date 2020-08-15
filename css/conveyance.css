@@ -1,0 +1,347 @@
+body{
+	margin: 0;
+}
+.column > a{
+    color: #ffe2ba;
+
+}
+.whole{
+  display: flex;
+  flex-direction: column;
+}
+#header{
+	margin-bottom: 0.1%;
+	background-color: #171790;
+    top: 0;
+    -moz-box-shadow: 0px 3px 3px #000;
+    -webkit-box-shadow: 0px 3px 3px #000;
+    box-shadow-bottom: 5px #000;
+    z-index: 1;
+}
+#header > img:first-child {
+	height: 100px;
+	width: 750px;
+}
+#textheader{
+  display: none;
+}
+@media(max-width: 750px)
+{
+  #header > img:first-child{
+    width: 500px;
+    height: 67px;
+  }
+}
+
+
+@media(max-width: 500px)
+{
+  #header > img:first-child{
+    content: url(../img/gbpuat.png);
+    height: 67px;
+    width: 67px;
+    margin-left: 42%;
+    margin-top: 2px;
+
+  }
+  #textheader{
+    width: 330px;
+    height: 50px;
+    display: block;
+    margin: auto;
+
+  }
+}
+
+.orange {
+  height: 5px;
+  background-color: #ffae42;
+  width: 100%;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+ 
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  background-color: #ffe2ba;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 1vw 1vw 1vw 4vw;
+  text-decoration: none;
+  font-size: 4vw;
+  color: #ffae42;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 2px solid #ffae42;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 3vw;
+  font-size: 4vw;
+  margin-left: 5vw;
+}
+#nav2{
+  display:none;
+}
+@media(max-width: 619px)
+{
+  #nav1{
+    display: none;
+  }
+  #nav2{
+    display: block;
+  }
+}
+
+
+
+#content{
+  text-align: center;
+}
+#content > img{
+  display: inline-block;
+  margin-bottom:3vh;
+  height: 55vmin;
+  width: 69vmin;
+}
+
+@media(max-width:758px) 
+{
+  #content > img {
+    height: 60vmin;
+    width: 70vmin;
+  }
+}
+@media(max-width:618px) 
+{
+  #content > img {
+    height: 75vmin;
+    width: 90vmin;
+  }
+}
+
+
+
+.blue {
+  height: 20px;
+  background-color: #171790;
+  width: 100%;
+
+}
+
+#footer{
+
+  text-align: center;
+  background-color: #171790;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow:row;
+}
+#column{
+ padding-top: 25px;
+ padding-bottom: 25px ;
+  font-family: 'Tinos', serif;
+  color: #ffe2ba;
+  line-height: 1vmax;
+  font-size: 1.2vmax;
+
+
+}
+#column > p:first-child{
+  color: #ffae42;
+  text-decoration: underline #ffae42;
+  font-size: 1.3vmax;}
+  @media(min-width: 1260px)
+    { #column{
+        line-height: 0.5vmax;
+      font-size: 0.7vmax;
+    }
+    #column > p:first-child{
+      font-size: 0.8vmax;
+    }
+
+  }
+
+.animation{
+  margin: 3vh 1vmin;
+  border: 2px solid #ffae42;
+  border-radius: 20px;
+  height: 17vw;
+  display:flex;
+  flex-direction: column;
+}
+.animation > div > a{
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+  -moz-transition: all 2s ease-in-out; /** Firefox **/
+  -o-transition: all 2s ease-in-out; /** Opera **/
+  position: absolute;
+
+}
+#deltrain > img{
+  width: 7vw;
+}
+#dehtrain > img{
+  width: 7vw;
+}
+#delplane > img{
+  width: 7vw;
+  padding-top: 2vh;
+}
+#dehplane > img{
+  width: 7vw;
+  padding-top: 2vh;
+}
+#delbus > img{
+  width: 7vw;
+  padding-top: 2vh;
+}
+#dehbus > img{
+  width: 7vw;
+  padding-top: 2vh;
+}
+
+.photo1{
+display: none;
+}
+@media(max-width: 800px){
+  .photo{
+    display: none;
+  }
+  .photo1{
+    display: block;
+  }
+  #deltrain > img{
+  width: 10vw;
+}
+#dehtrain > img{
+  width: 10vw;
+}
+#delplane > img{
+  width: 10vw;
+  padding-top: 0vh;
+}
+#dehplane > img{
+  width: 10vw;
+  padding-top: 0vh;
+}
+#delbus > img{
+  width: 10vw;
+  padding-top: 0.2vh;
+}
+#dehbus > img{
+  width: 10vw;
+  padding-top: 0.2vh;
+}
+
+}
+
+.city
+{
+display: flex;
+flex-direction: row;
+position: relative;
+top: 7vw;
+justify-content: space-between;
+font-size: 2vw;
+padding: 0 7vw;
+}
+
+#deltraintext , #delplanetext , #delbustext , #dehtraintext , #dehplanetext , #dehbustext {
+  display: none;
+  padding: 3vh 3vw;
+  background-color: #ffe2ba;
+  border: 2px solid #171790;
+  border-radius: 20px;
+  margin-bottom: 2vh;
+
+}
+td,th{
+  padding: 1vh 2vw;
+}
+
+.movedeltrain {
+  transform: translate(42vw, 0);
+  -webkit-transform: translate(42vw, 0); /** Chrome & Safari **/
+  -o-transform: translate(42vw, 0); /** Opera **/
+  -moz-transform: translate(42vw, 0); /** Firefox **/
+}
+.movedelplane {
+  transform: translate(35vw, 0);
+  -webkit-transform: translate(35vw, 0); /** Chrome & Safari **/
+  -o-transform: translate(35vw, 0); /** Opera **/
+  -moz-transform: translate(35vw, 0); /** Firefox **/
+}
+.movedelbus {
+  transform: translate(28vw, 0);
+  -webkit-transform: translate(28vw, 0); /** Chrome & Safari **/
+  -o-transform: translate(28vw, 0); /** Opera **/
+  -moz-transform: translate(28vw, 0); /** Firefox **/
+}
+.movedehtrain {
+  transform: translate(-42vw, 0);
+  -webkit-transform: translate(-42vw, 0); /** Chrome & Safari **/
+  -o-transform: translate(-42vw, 0); /** Opera **/
+  -moz-transform: translate(-42vw, 0); /** Firefox **/
+}
+.movedehbus {
+  transform: translate(-28vw, 0);
+  -webkit-transform: translate(-28vw, 0); /** Chrome & Safari **/
+  -o-transform: translate(-28vw, 0); /** Opera **/
+  -moz-transform: translate(-28vw, 0); /** Firefox **/
+}
+.movedehplane {
+  transform: translate(-35vw, 0);
+  -webkit-transform: translate(-35vw, 0); /** Chrome & Safari **/
+  -o-transform: translate(-35vw, 0); /** Opera **/
+  -moz-transform: translate(-35vw, 0); /** Firefox **/
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 2s;
+  animation-name: animatebottom;
+  animation-duration: 2s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-300px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-300px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+.contact{
+  border: 2px solid #191970;
+  border-radius: 20px;
+  background-color: #ffe2ba;
+  margin: 3vh 1vmin;
+
+}

@@ -1,0 +1,291 @@
+body{
+	margin: 0;
+}
+.column > a{
+    color: #ffe2ba;
+
+}
+.whole{
+  display: flex;
+  flex-direction: column;
+}
+#header{
+	margin-bottom: 0.1%;
+	background-color: #171790;
+    top: 0;
+    -moz-box-shadow: 0px 3px 3px #000;
+    -webkit-box-shadow: 0px 3px 3px #000;
+    box-shadow-bottom: 5px #000;
+    z-index: 1;
+}
+#header > img:first-child {
+	height: 100px;
+	width: 750px;
+}
+#textheader{
+  display: none;
+}
+@media(max-width: 750px)
+{
+  #header > img:first-child{
+    width: 500px;
+    height: 67px;
+  }
+}
+
+
+
+@media(max-width: 500px)
+{
+  #header > img:first-child{
+    content: url(../img/gbpuat.png);
+    height: 67px;
+    width: 67px;
+    margin-left: 42%;
+    margin-top: 2px;
+
+  }
+  #textheader{
+    width: 330px;
+    height: 50px;
+    display: block;
+    margin: auto;
+
+  }
+}
+
+.past{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.orange {
+  height: 5px;
+  background-color: #ffae42;
+  width: 100%;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+ 
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  background-color: #ffe2ba;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 1vw 1vw 1vw 4vw;
+  text-decoration: none;
+  font-size: 4vw;
+  color: #ffae42;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 2px solid #ffae42;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 3vw;
+  font-size: 4vw;
+  margin-left: 5vw;
+}
+#nav2{
+  display:none;
+}
+@media(max-width: 619px)
+{
+  #nav1{
+    display: none;
+  }
+  #nav2{
+    display: block;
+  }
+}
+
+
+
+.box{
+
+
+  width: 400px;
+  height: auto;
+  background: #262626;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.box h3{
+  position: relative;
+  left: -15px;
+  color: #FFF;
+  text-align: center;
+  background: #ffae42;
+  margin: 40px 0 0 ;
+  padding: 5px 0;
+  font-size: 23px;
+  text-transform: uppercase;
+  width: 430px;
+  text-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+@media(max-width: 464px)
+{
+  .box{
+    width: 280px;
+  }
+  .box h3{
+    width: 310px;
+  }
+  .box > h3 > img{
+    width: 260px;
+  }
+}
+
+.box h3:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background: #af330b;
+  transform-origin: top left;
+  transform: skewY(-50deg);
+  transition: transform .5s;
+  z-index: -1;
+}
+
+.box:hover h3:before{
+  transform: skewY(50deg);
+}
+.box h3:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 100%;
+  background: #af330b;
+  transform-origin: top right;
+  transform: skewY(-50deg);
+  transition: transform .5s;
+  z-index: -1;
+}
+
+.box:hover h3:after{
+  transform: skewY(50deg);
+}
+.box p{
+  padding: 0 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.timeline{
+  width: 100%;
+  height: auto;
+  margin: 2vh auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.timeline li{
+  position: relative;
+  list-style: none;
+}
+
+.timeline li .item{
+  position: relative;
+  min-height: 60px;
+  padding: 0 20px 20px 30px;
+  margin-left: 20px;
+  border-left: 1px solid #262626;
+}
+.timeline li:last-child .item
+{
+  border-left: 1px solid transparent;
+}
+
+.timeline li .item span{
+  position: absolute;
+  top: -8px;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #262626;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 50%;
+}
+.timeline li:hover .item span{
+  background: #ffae42;
+}
+.timeline li .item h3, .timeline li .item p{
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+  height: 20px;
+  background-color: #171790;
+  width: 100%;
+
+}
+
+#footer{
+
+  text-align: center;
+  background-color: #171790;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow:row;
+}
+#column{
+ padding-top: 25px;
+ padding-bottom: 25px ;
+  font-family: 'Tinos', serif;
+  color: #ffe2ba;
+  line-height: 1vmax;
+  font-size: 1.2vmax;
+
+
+}
+#column > p:first-child{
+  color: #ffae42;
+  text-decoration: underline #ffae42;
+  font-size: 1.3vmax;}
+  @media(min-width: 1260px)
+    { #column{
+        line-height: 0.5vmax;
+      font-size: 0.7vmax;
+    }
+    #column > p:first-child{
+      font-size: 0.8vmax;
+    }
+
+  }
