@@ -30,32 +30,32 @@
 
 			<ul class="nav nav-tabs" style="font-size: 1.2vmax;background-color: #ffae42;">
 				<li class="nav-item">
-					<a class="nav-link" href="homepage.html">Home</a>
+					<a class="nav-link" href="homepage.php">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link active" href=""
 						style="border-top: 5px solid #171790;background-color: #ffe2ba;">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="faculty.html">Faculty</a>
+					<a class="nav-link" href="faculty.php">Faculty</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="associations.html">Associations</a>
+					<a class="nav-link" href="associations.php">Associations</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="facilities.html">Facilities</a>
+					<a class="nav-link" href="facilities.php">Facilities</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="activities.php">Activities</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="placements.html">Placements</a>
+					<a class="nav-link" href="placements.php">Placements</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="conveyance.html">Reach Us</a>
+					<a class="nav-link" href="conveyance.php">Reach Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="admissions.html">Admissions</a>
+					<a class="nav-link" href="admissions.php">Admissions</a>
 				</li>
 			</ul>
 
@@ -66,13 +66,13 @@
 			<div id="mySidebar" class="sidebar">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
 					style="border-bottom: 0px solid white;font-size: 8vw;">x</a>
-				<a href="faculty.html">Faculty</a>
-				<a href="associations.html">Associations</a>
-				<a href="facilities.html">Facilities</a>
+				<a href="faculty.php">Faculty</a>
+				<a href="associations.php">Associations</a>
+				<a href="facilities.php">Facilities</a>
 				<a href="activities.php">Activities</a>
-				<a href="placements.html">Placements</a>
-				<a href="conveyance.html">Reach Us</a>
-				<a href="admissions.html">Admissions</a>
+				<a href="placements.php">Placements</a>
+				<a href="conveyance.php">Reach Us</a>
+				<a href="admissions.php">Admissions</a>
 			</div>
 			<div id="main">
 				<button class="openbtn" onclick="openNav()" style="background-color: #ffae42;color: white;"><strong>
@@ -85,7 +85,7 @@
 			<img src="./img/up.png" style="width: 2vmin;" />
 		</div>
 
-		<div class="page1" id="page1" style="">
+		<div class="page1" id="page1" style="padding: 15vh 0;">
 
 			<p style="font-family: 'Dancing Script', cursive;font-size: 6vmax;" data-aos="fade-up"
 				data-aos-duration="600">
@@ -109,7 +109,7 @@
 
 		<div style="background: #ffae42;padding: 4vh 3vw">
 
-			<p style="font-size: 2.2vmax;text-align: center;"> Coordinators of the B.Tech Biotech Program</p>
+			<p style="font-size: 2.2vmax;text-align: center;"> Coordinators of the B.Tech Biotechnology Program</p>
 			<div class="past" id="past">
 
 				<div style="display: flex;flex-direction: column;">
@@ -162,14 +162,25 @@
 			</p><br>
 			<p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;">G. B. Pant University of Agriculture &
-				Technology is the first State Agriculture University in the country, established in the year 1960, on
-				land grant pattern. Right from its inception, it has played a key role in ushering ‘Green Revolution’ in
-				the country. Nobel Laureate Dr. Norman E. Borlaug recognized it as the harbinger of Green Revolution in
-				India. The University continues to play pivotal role in integration of teaching and research with
-				industrial activities. The University has great strength in Biotechnology, Microbiology, Vaccines,
-				Bio-fertilizers, Post Harvest & Process Engineering, Food Technology, etc. The University has twice been
-				adjudged as the Best State Agricultural University by the Indian Council of Agricultural Research(ICAR),
-				Govt. of India.</p>
+				Technology is the <i><b> first State Agriculture University </b></i> established in India. The
+				University came into
+				existence on November 17th, 1960 on a <i><b> Land Grant Pattern</b></i>. Right from the time of its
+				inception, the
+				University has laid emphasis on the holistic development of Indian Agriculture through integration of
+				teaching, research and extension activities. This meticulous approach has earned rich dividends for the
+				University, as it has <i><b>thrice been adjudged</b></i> as the <i><b>Best State Agricultural
+						University</b></i>, by the Indian
+				Council of Agricultural Research, New Delhi. The University has played a key role in ushering
+				<b><i>Green
+						Revolution </i></b>in Indian and has rightly been recognized as the <i><b>Harbinger of Green
+						Revolution in India.</b></i> </p>
+
+			<p data-aos="fade-up" data-aos-duration="1000"
+				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;">The University provides a lively campus
+				life with excellent academic facilities by offering undergraduate and postgraduate courses in
+				disciplines like Agriculture, Technology, Basic Sciences, Veterinary Sciences, Home Science, Fisheries
+				Sciences, Agri-Business Management etc. The University has a worldwide footprint and is credited with
+				producing one of the finest graduates in the country.</p>
 		</div>
 		<div class="page3" id="page3">
 			<p data-aos="fade-up" data-aos-duration="1000"
@@ -177,16 +188,19 @@
 			<br>
 			<p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;">The College of Basic Sciences and
-				Humanities was established in 1960. It has 10 departments and 3 independent units that are involved in
-				providing teaching support to the university.</p>
+				Humanities was established as one of the first constituent Colleges in the University, at the time of
+				its inception in 1960. The strength of the College lies in its interdisciplinary approach to education
+				and research, through a unique integration of Physical and Biological Sciences. The College offers
+				maximum number of interdisciplinary courses in the University and also enrols maximum number of students
+				in its courses. </p>
 			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;">With state-of-art laboratories, excellent
-				faculty and research staff the college has immense potential for revitalising agricultural education in
-				it's most modern form.</p>
-			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;"> The objective is to reinforce the
-				efforts of farmers for enabling the enhancement in productivity and ensuring food and nutritional
-				security.</p>
+				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;">Currently the College of Basic Sciences &
+				Humanities has 10 different departments and three auxiliary research facilities namely Radio Isotope
+				Tracer Laboratory, Bioinformatics & In-silico Biology Unit and Central Sophisticated Instrumentation
+				Facility. All the departments are fully equipped for online as well as classroom teaching activities and
+				have state-of-art research facilities, supported by research grants from various National and
+				International agencies. </p>
+
 		</div>
 		<div class="page3_5" id="page3_5"></div>
 		<div class="page4" id="page4">
@@ -195,9 +209,25 @@
 				Biology and Genetic Engineering</p><br>
 			<p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">The Department of Molecular Biology and
-				Genetic Engineering is housed in a separate wing of the college and has 10 function based laboratories
-				with elaborate experimental and research facilities in the areas of:</p>
-			<ul data-aos="fade-up" data-aos-duration="1000"
+				Genetic Engineering is the youngest and most vibrant constituent department of the College of Basic
+				Sciences & Humanities. The Master’s program of the Department is fully funded by the Department of
+				Biotechnology, Govt. of India. The department also serves as the nodal department for the B.Tech.
+				(Biotechnology) program of the University. The Biotechnology program specifically caters to the industry
+				centric needs for trained human resource in Agri-biotech sector. The department follows a pyramidal
+				approach of learning, wherein the students follow Basic, fundamental and then advanced courses in
+				agricultural biotechnology in the 1st, 2nd and 3rd Semester respectively, followed by a specialized
+				research problem in the 4th semester, for obtaining hands-on training in experimental & analytical
+				skills in Biotechnology. </p>
+
+			<p data-aos="fade-up" data-aos-duration="1000"
+				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">The Molecular Biology & Genetic
+				Engineering department (or Biotech Department, as it is commonly known) has over the years develop
+				specialized linkages with the industry and interdisciplinary collaborations in research, for transfer of
+				technologies and patents, developed through extensive in-house research. </p>
+
+
+
+			<!-- <ul data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;text-align:left;">
 				<li>Immunodiagnostics</li>
 				<li>Signal Transduction</li>
@@ -210,28 +240,49 @@
 				<li>Bioinformatics</li>
 				<li>Bio-safety</li>
 				<li>Bio-resource & Bio-prospecting</li>
-			</ul>
+			</ul> -->
 		</div>
 		<div class="page5" id="page5">
 			<p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-weight: bold;font-size: 2.2vmax;">The Biotechnology
 				Program</p><br>
 			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">Pantnagar Biotechnology Program was
-				incepted in the year 1988, under the faculty of Basic Sciences and Humanities as the nodal centre which
-				has now completed 29 years successfully with National as well as International Recognition.</p>
+				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">Considering the growing demand of trained
+				human resource in the sunrise industrial sector of Biotechnology, it was envisaged to start an
+				undergraduate program in Biotechnology. The B.Tech. (Biotechnology) program was initiated in the year
+				2008, with an intake capacity of 40 students per annum. The objective of the program is to provide
+				quality education and training to the Biotech students, so as to enable them to explore and invent
+				biotechnology based career prospects and entrepreneur opportunities. The program emphasizes on the
+				holistic development of young minds for sharpening their critical thinking abilities and providing cross
+				boundary solutions to problems that involve biotechnology based inputs. </p>
 			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">In order to meet the high demand of
-				biotechnology based industries, for trained and skilled manpower, the university is offering B.Tech
-				course with Biotechnology major.</p>
+				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">The B.Tech (Biotech) program places equal
+				emphasis on plant, animal and microbial systems. Emphasis is laid on interdisciplinary learning
+				approaches, wherein students are encouraged to take courses from across the disciplines like
+				agriculture, horticulture, engineering, computational biology etc. The program immensely benefits from
+				the existence of a full-fledged biotechnology department having internationally acclaimed teaching
+				program. The nodal department has specialized function based research laboratories, equipped with state
+				of art equipment and instruments for taking up basic as well as applied research in the frontier areas
+				of Biotechnology. The undergraduate students also carry out research on a practical problem of their
+				choice; wherein the students get hands on training in designing research methodology and also learn
+				day-to-day experimental trouble shooting under the guidance of senior doctoral students, <i>so as to
+					safely
+					make mistakes and learn organically.</i>
+
+			</p>
 			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">DBT has supported extensively in
-				providing quality human resource, creating infrastructure for Bio-informatics centre, strengthening
-				research through various modes.</p>
-			<p data-aos="fade-up" data-aos-duration="1000"
+				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">The B.Tech. (Biotechnology) program
+				encourages innovation in ideas to support entrepreneurship,
+				providing platforms for knowledge sharing for the students and encourages students to participate in
+				skill development programs. Presently we have two industry linked entrepreneurial programs in line,
+				wherein the students learn the basic entrepreneurial skills in Bio-fortification and hydroponics. The
+				two areas have been earmarked keeping in mind the demands of local hill population. The entrepreneurial
+				skill development also encompasses lectures on the market economy and sustainability, by experts from
+				the college of Agri-business management.</p>
+			<!-- <p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">The objective of the program is to equip
 				and empower the students to explore and invent biotechnology based career prospectus and employment
-				opportunities.</p>
+				opportunities.</p> -->
 
 		</div>
 		<div class="page5_5" id="page5_5"></div>
@@ -269,7 +320,7 @@
 			</div>
 			<div class="column" id="column">
 				<p>LINKS</p>
-				<a href="conveyance.html">
+				<a href="conveyance.php">
 					<p>How to Reach</p>
 				</a>
 				<a href="http://gbpuat-regi.com/default.html">

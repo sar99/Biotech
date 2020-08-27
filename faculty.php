@@ -30,32 +30,32 @@
 		<div class="nav1" id="nav1">
 			<ul class="nav nav-tabs" style="font-size: 1.2vmax;background-color: #ffae42;">
 				<li class="nav-item">
-					<a class="nav-link" href="homepage.html">Home</a>
+					<a class="nav-link" href="homepage.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="aboutus.html">About Us</a>
+					<a class="nav-link" href="aboutus.php">About Us</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link active" href=""
 						style="border-top: 5px solid #171790;background-color: #ffe2ba;">Faculty</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="associations.html">Associations</a>
+					<a class="nav-link" href="associations.php">Associations</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="facilities.html">Facilities</a>
+					<a class="nav-link" href="facilities.php">Facilities</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="activities.php">Activities</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="placements.html">Placements</a>
+					<a class="nav-link" href="placements.php">Placements</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="conveyance.html">Reach Us</a>
+					<a class="nav-link" href="conveyance.php">Reach Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="admissions.html">Admissions</a>
+					<a class="nav-link" href="admissions.php">Admissions</a>
 				</li>
 			</ul>
 
@@ -66,13 +66,13 @@
 			<div id="mySidebar" class="sidebar">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
 					style="border-bottom: 0px solid white;font-size: 8vw;">x</a>
-				<a href="aboutsus.html">About US</a>
-				<a href="associations.html">Associations</a>
-				<a href="facilities.html">Facilities</a>
+				<a href="aboutsus.php">About US</a>
+				<a href="associations.php">Associations</a>
+				<a href="facilities.php">Facilities</a>
 				<a href="activities.php">Activities</a>
-				<a href="placements.html">Placements</a>
-				<a href="conveyance.html">Reach Us</a>
-				<a href="admissions.html">Admissions</a>
+				<a href="placements.php">Placements</a>
+				<a href="conveyance.php">Reach Us</a>
+				<a href="admissions.php">Admissions</a>
 			</div>
 			<div id="main">
 				<button class="openbtn" onclick="openNav()" style="background-color: #ffae42;color: white;"><strong>
@@ -90,12 +90,9 @@
 		<div style="text-align: center;margin-top: 5vh">
 			<h3 style="font-family: 'Anton', sans-serif;">Core Faculty</h3>
 		</div>
+
+
 		<div class="heads" id="heads">
-
-
-
-
-
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -116,29 +113,12 @@
 					</div>
 				</div>
 			</div>
-
-
-			<div class="flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img src="img/ak.png" alt="Avatar" style="width:20vmax;height:20vmax">
-					</div>
-					<div class="flip-card-back">
-						<h2 style="font-size: 2vmax;">Prof. A.K. Gaur</h2>
-						<p style="font-size: 0.9vmax;padding-top: 1vmax;">(Head, Dept. of MBGE)</p>
-						<p style="font-size: 0.9vmax;"> Professor</p>
-						<p style="font-size: 0.9vmax;">Education: PhD</p>
-						<p style="font-size: 0.9vmax;">Specialization: Plant Tissue Culture, Plant Biochemistry &
-							Biotechnology</p>
-						<p style="font-size: 0.9vmax;">Email-Id: anilgaur123@rediffmail.com</p>
-					</div>
-				</div>
-			</div>
-
-
 		</div>
 
-		<div class="others" id="others">
+
+		<div class="heads" id="heads">
+
+
 			<div class="flip-card1">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -153,6 +133,30 @@
 					</div>
 				</div>
 			</div>
+
+
+			<div class="flip-card1">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="img/ak.png" alt="Avatar" style="width:16vmax;height:16vmax">
+					</div>
+					<div class="flip-card-back">
+						<h2 style="font-size: 1.7vmax;">Prof. A.K. Gaur</h2>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">(Head, Dept. of MBGE)</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;"> Professor</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Education: PhD</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Specialization: Plant Tissue Culture, Plant Biochemistry &
+							Biotechnology</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Email-Id: anilgaur123@rediffmail.com</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="others" id="others">
+
 			<div class="flip-card1">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -198,6 +202,9 @@
 					</div>
 				</div>
 			</div>
+
+		</div>
+		<div class="others" id="others">
 			<div class="flip-card1">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
@@ -313,7 +320,7 @@
 			</div>
 			<div class="column" id="column">
 				<p>LINKS</p>
-				<a href="conveyance.html">
+				<a href="conveyance.php">
 					<p>How to Reach</p>
 				</a>
 				<a href="http://gbpuat-regi.com/default.html">

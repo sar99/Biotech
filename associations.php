@@ -2,11 +2,10 @@
 <html>
 
 <head>
-	<title>Home</title>
+	<title>Associations</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/loader.css">
+	<link rel="stylesheet" type="text/css" href="css/associations.css">
 	<link rel="stylesheet" type="text/css" href="css/aos.css">
 	<link rel="shortcut icon" href="img/gbpuat.png" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
@@ -15,35 +14,64 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="HandheldFriendly" content="true">
-
 </head>
 
 <body>
-
-
-
-
-	<div class="whole animate-bottom" id="whole" style="">
+	<div class="whole" id="whole">
 
 		<div class="header" id="header">
 			<img src="img/header.png" class="headerlogo" id="headerlogo">
 			<img src="img/textheader.png" id="textheader" class="textheader">
 		</div>
 
+		<div class="orange"></div>
+
+		<div class="nav1" id="nav1">
+			<ul class="nav nav-tabs" style="font-size: 1.2vmax;background-color: #ffae42;">
+				<li class="nav-item">
+					<a class="nav-link" href="homepage.php">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutus.php">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="faculty.php">Faculty</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href=""
+						style="border-top: 5px solid #171790;background-color: #ffe2ba;">Associations</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="facilities.php">Facilities</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="activities.php">Activities</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="placements.php">Placements</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="conveyance.php">Reach Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="admissions.php">Admissions</a>
+				</li>
+			</ul>
+
+		</div>
 
 		<div id="nav2" class="nav2">
 
 			<div id="mySidebar" class="sidebar">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
 					style="border-bottom: 0px solid white;font-size: 8vw;">x</a>
-				<a href="aboutus.html">About Us</a>
-				<a href="faculty.html">Faculty</a>
-				<a href="associations.html">Associations</a>
-				<a href="facilities.html">Facilities</a>
+				<a href="aboutus.php">About US</a>
+				<a href="faculty.php">Faculty</a>
+				<a href="facilities.php">Facilities</a>
 				<a href="activities.php">Activities</a>
-				<a href="placements.html">Placements</a>
-				<a href="conveyance.html">Reach Us</a>
-				<a href="admissions.html">Admissions</a>
+				<a href="placements.php">Placements</a>
+				<a href="conveyance.php">Reach Us</a>
+				<a href="admissions.php">Admissions</a>
 			</div>
 			<div id="main">
 				<button class="openbtn" onclick="openNav()" style="background-color: #ffae42;color: white;"><strong>
@@ -55,41 +83,23 @@
 
 
 
-		<div id="menu" class="menu">
-			<a href="aboutus.html" id="item">
-				<p>About Us<img src="img/aboutus.png" style="height: 8vh;width: 3.5vw; margin-left:1.5vw;"></p>
-			</a>
-			<a href="faculty.html" id="item">
-				<p>Faculty<img src="img/faculty.png" style="height: 7.5vh;width: 3.5vw; margin-left:1.5vw;"></p>
-			</a>
-			<a href="associations.html" id="item">
-				<p>Associations<img src="img/associations.png" style="height: 7.5vh;width: 3.5vw; margin-left:0.5vw;">
-				</p>
-			</a>
-			<a href="facilities.html" id="item">
-				<p>Facilities<img src="img/facilities.png" style="height: 7vh;width: 3vw; margin-left:1.5vw;"></p>
-			</a>
-			<a href="activities.php" id="item">
-				<p>Activities<img src="img/activities.png" style="height: 7.5vh;width: 3.5vw; margin-left:1.5vw;"></p>
-			</a>
-			<a href="placements.html" id="item">
-				<p>Placements<img src="img/placements.png" style="height: 7vh;width: 3.5vw; margin-left:0.5vw;"></p>
-			</a>
-			<a href="conveyance.html" id="item">
-				<p>Reach Us<img src="img/conveyance.png" style="height: 7vh;width: 3.5vw; margin-left:1.5vw;"></p>
-			</a>
-			<a href="admissions.html" id="item">
-				<p>Admissions<img src="img/admissions.png" style="height: 7vh;width: 3.5vw; margin-left:0.5vw;"></p>
-			</a>
+
+
+
+		<div class="content" id="content">
+			<img src="img/asso.png" data-aos="zoom-in-up" data-aos-duration="1300">
 		</div>
 
 
 
-		<div class="small" id="small">
-			<img src="img/collage1.jpg" style="width: 100vw;">
-			<img src="img/3.png" style="width: 100vw;">
-			<img src="img/collage3.jpg" style="width: 100vw;">
-		</div>
+
+
+
+
+
+
+
+
 
 
 		<div class="blue"></div>
@@ -120,7 +130,7 @@
 			</div>
 			<div class="column" id="column">
 				<p>LINKS</p>
-				<a href="conveyance.html">
+				<a href="conveyance.php">
 					<p>How to Reach</p>
 				</a>
 				<a href="http://gbpuat-regi.com/default.html">
@@ -142,20 +152,6 @@
 
 	</div>
 
-
-	<script>
-
-		function openNav() {
-			document.getElementById("mySidebar").style.width = "50vw";
-			document.getElementById("main").style.display = "none";
-		}
-
-		function closeNav() {
-			document.getElementById("mySidebar").style.width = "0";
-			document.getElementById("main").style.display = "block";
-		}
-
-	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -165,11 +161,21 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+	<script>
+		function openNav() {
+			document.getElementById("mySidebar").style.width = "50vw";
+			document.getElementById("main").style.display = "none";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidebar").style.width = "0";
+			document.getElementById("main").style.display = "block";
+		}
+	</script>
 	<script type="text/javascript" src="js/aos.js"></script>
 	<script type="text/javascript">
 		AOS.init();
 	</script>
-
 
 </body>
 

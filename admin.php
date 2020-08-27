@@ -26,7 +26,7 @@ $conn=mysqli_connect("localhost","root","","cbsh")
 
 	<head>
 
-	<body>
+	<body style="padding: 15px;">
 
 		<h2 style="text-align: center">Admin Panel</h2>
 
