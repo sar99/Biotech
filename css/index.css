@@ -16,7 +16,7 @@ body{
     box-shadow-bottom: 5px #000;
     z-index: 1;
 }
-#header > img:first-child {
+#header >div:first-child> img:first-child {
 	height: 100px;
 	width: 750px;
 }
@@ -25,7 +25,7 @@ body{
 }
 @media(max-width: 750px)
 {
-  #header > img:first-child{
+  #header > div:first-child>img:first-child{
     width: 500px;
     height: 67px;
   }
@@ -34,7 +34,7 @@ body{
 
 @media(max-width: 500px)
 {
-  #header > img:first-child{
+  #header > div:first-child>img:first-child{
     content: url(../img/gbpuat.png);
     height: 67px;
     width: 67px;
@@ -49,6 +49,20 @@ body{
     margin: auto;
 
   }
+}
+
+
+
+#typing { 
+	font: bold 300% Consolas, Monaco, monospace;
+	/* border-right: .1em solid black;
+	width: 16.5em; 
+	width: 21ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 7s steps(48, end),
+	           blink-caret .5s step-end infinite alternate; */
 }
 
 .orange {

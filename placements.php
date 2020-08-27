@@ -96,15 +96,27 @@
 		<div class="card-group" style="margin-left: 10vw; margin-right: 10vw;text-align: center;">
 			<div class="card">
 				<img src="./img/google.png" class="card-img-top"
-					style="height: 8vw;width: 8vw;text-align: center;margin: auto;">
+					style="height: 5vw;width: 5vw;text-align: center;margin: auto;">
 			</div>
 			<div class="card">
-				<img src="./img/roche.png" class="card-img-top"
-					style="height: 8vw;width: 20vw;text-align: center;margin: auto;">
+				<img src="./img/airtel.png" class="card-img-top"
+					style="height: 5vw;width: 8vw;text-align: center;margin: auto;">
 			</div>
 			<div class="card">
-				<img src="./img/abott.jpg" class="card-img-top"
-					style="height: 8vw;width: 7vw;text-align: center;margin: auto;">
+				<img src="./img/tcs.png" class="card-img-top"
+					style="height: 5vw;width: 10vw;text-align: center;margin: auto;margin-top: 10px;margin-bottom: 10px;">
+			</div>
+			<div class="card">
+				<img src="./img/wipro.jpg" class="card-img-top"
+					style="height: 5vw;width: 6vw;text-align: center;margin: auto;">
+			</div>
+			<div class="card">
+				<img src="./img/lifecell.png" class="card-img-top"
+					style="height: 5vw;width: 10vw;text-align: center;margin: auto;">
+			</div>
+			<div class="card">
+				<img src="./img/merck.png" class="card-img-top"
+					style="height: 5vw;width: 9vw;text-align: center;margin: auto;">
 			</div>
 		</div>
 
@@ -147,7 +159,7 @@
 							<span>1</span>
 							<div class="content">
 								<p>Organisations are welcome to make a pre-placement talk/visit, which provides an
-									opportunity for the organiza on to showcase their corporate requirement and job
+									opportunity for the organization to showcase their corporate requirement and job
 									profiles.</p>
 							</div>
 						</div>
@@ -269,20 +281,24 @@
 
 
 		<div class="box" style="text-align: center;margin-top: 2vh;margin-bottom: 2vh;">
-			<h3>
-				<p>Director</p>
+		
+			<h3 style="color: black;">
+				<p style="font-size: 3vh; color: black;">Coordinator</p>
 				<p></p> Placement and Counselling</p>
 			</h3>
+
+			<!-- <img src="img/sonu.png" style="padding: 10px;" /> -->
+			<p style=" margin-bottom: 5px;font-weight: bold;font-size: 2.2vh;padding-top: 5px;">Dr. Pushpa Lohani</p>
 			<p style="margin-bottom: 5px;font-weight: bold;font-size: 2.5vh;"> G. B. Pant University of Agriculture and
 				Technology</p>
 			<p style="margin-bottom: 5px;"> Pantnagar - 263145</p>
 			<p> Uttarakhand, India</p>
 			<p style=" margin-bottom: 5px;font-weight: bold;font-size: 2.2vh;"> Contacts:</p>
-			<p style="margin-bottom: 5px;"> Phone: + 91-5944-233642
-				(O), 9456470344 (M), Fax: +91-5944-233473</p>
+			<p style="margin-bottom: 5px;"> Phone: + 91-5944-233898
+				(O), 7253828925 (M), Fax: +91-5944-233473</p>
 
 			<p> E-mail:
-				directortp@rediffmail.com</p>
+				pushpa.lohani@yahoo.com</p>
 			</p>
 		</div>
 
@@ -329,7 +345,7 @@
 			</div>
 
 		</div>
-		<div class="column" id="column" style="text-align: center;background-color: #171790"> Website designed by <a
+		<div class="column" id="column" style="text-align: center;background-color: #171790; font-size: 1.7vh;"> Website designed and developed by <a
 				href="https://www.linkedin.com/in/saniya-arora-408726181/"
 				style="color: #ffae42;text-decoration: underline;"> Saniya Arora</a></div>
 		<div class="orange"></div>

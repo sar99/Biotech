@@ -119,23 +119,7 @@
 		<div class="heads" id="heads">
 
 
-			<div class="flip-card1">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img src="img/sundip.jpg" alt="Avatar" style="width:16vmax;height:16vmax;">
-					</div>
-					<div class="flip-card-back" style="padding: 1vmax 0.5vmax;">
-						<h3 style="font-size: 1.7vmax;">Prof. Sundip Kumar</h3><br>
-						<p style="font-size: 0.9vmax;line-height: 0.9vmax;"> Professor</p>
-						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Education: PhD, Post-Doc (USA)</p>
-						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Specialization: Molecular Cytogenetics</p>
-						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Email-Id: malik.sundip@gmail.com</p>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="flip-card1">
+		<div class="flip-card1">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
 						<img src="img/ak.png" alt="Avatar" style="width:16vmax;height:16vmax">
@@ -151,6 +135,23 @@
 					</div>
 				</div>
 			</div>
+			
+
+			<div class="flip-card1">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="img/sundip.jpg" alt="Avatar" style="width:16vmax;height:16vmax;">
+					</div>
+					<div class="flip-card-back" style="padding: 1vmax 0.5vmax;">
+						<h3 style="font-size: 1.7vmax;">Prof. Sundip Kumar</h3><br>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;"> Professor</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Education: PhD, Post-Doc (USA)</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Specialization: Molecular Cytogenetics</p>
+						<p style="font-size: 0.9vmax;line-height: 0.9vmax;">Email-Id: malik.sundip@gmail.com</p>
+					</div>
+				</div>
+			</div>
+
 
 
 		</div>
@@ -334,7 +335,7 @@
 			</div>
 
 		</div>
-		<div class="column" id="column" style="text-align: center;background-color: #171790"> Website designed by <a
+		<div class="column" id="column" style="text-align: center;background-color: #171790; font-size: 1.7vh;"> Website designed and developed by <a
 				href="https://www.linkedin.com/in/saniya-arora-408726181/"
 				style="color: #ffae42;text-decoration: underline;"> Saniya Arora</a></div>
 		<div class="orange"></div>

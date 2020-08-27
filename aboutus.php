@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="HandheldFriendly" content="true">
@@ -87,7 +88,7 @@
 
 		<div class="page1" id="page1" style="padding: 15vh 0;">
 
-			<p style="font-family: 'Dancing Script', cursive;font-size: 6vmax;" data-aos="fade-up"
+			<p style="font-size: 6vmax; font-family: 'Lexend Peta', sans-serif;" data-aos="fade-up"
 				data-aos-duration="600">
 				<bold>Welcome</bold>
 			</p>
@@ -177,7 +178,7 @@
 
 			<p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.5vmax;">The University provides a lively campus
-				life with excellent academic facilities by offering undergraduate and postgraduate courses in
+				life with excellent academic environment. It offers undergraduate and postgraduate courses in
 				disciplines like Agriculture, Technology, Basic Sciences, Veterinary Sciences, Home Science, Fisheries
 				Sciences, Agri-Business Management etc. The University has a worldwide footprint and is credited with
 				producing one of the finest graduates in the country.</p>
@@ -221,9 +222,9 @@
 
 			<p data-aos="fade-up" data-aos-duration="1000"
 				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">The Molecular Biology & Genetic
-				Engineering department (or Biotech Department, as it is commonly known) has over the years develop
+				Engineering department (or Biotech Department, as it is commonly known) has developed
 				specialized linkages with the industry and interdisciplinary collaborations in research, for transfer of
-				technologies and patents, developed through extensive in-house research. </p>
+				technologies and patents, generated through extensive research. </p>
 
 
 
@@ -244,15 +245,17 @@
 		</div>
 		<div class="page5" id="page5">
 			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-weight: bold;font-size: 2.2vmax;">The Biotechnology
-				Program</p><br>
+				style="font-family: 'Merriweather', serif;font-weight: bold;font-size: 2.2vmax;">B.Tech. (Biotechnology)
+				Program</p>
+				<p data-aos="fade-up" data-aos-duration="1000"
+				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">Accredited by ICAR, Govt. of India </p><br>
 			<p data-aos="fade-up" data-aos-duration="1000"
-				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">Considering the growing demand of trained
+				style="font-family: 'Merriweather', serif;font-size: 1.3vmax;">Considering the growing demand for trained
 				human resource in the sunrise industrial sector of Biotechnology, it was envisaged to start an
 				undergraduate program in Biotechnology. The B.Tech. (Biotechnology) program was initiated in the year
 				2008, with an intake capacity of 40 students per annum. The objective of the program is to provide
 				quality education and training to the Biotech students, so as to enable them to explore and invent
-				biotechnology based career prospects and entrepreneur opportunities. The program emphasizes on the
+				biotechnology based career prospects and entrepreneurial opportunities. The program emphasizes on the
 				holistic development of young minds for sharpening their critical thinking abilities and providing cross
 				boundary solutions to problems that involve biotechnology based inputs. </p>
 			<p data-aos="fade-up" data-aos-duration="1000"
@@ -334,7 +337,7 @@
 			</div>
 
 		</div>
-		<div class="column" id="column" style="text-align: center;background-color: #171790"> Website designed by <a
+		<div class="column" id="column" style="text-align: center;background-color: #171790; font-size: 1.7vh;"> Website designed and developed by <a
 				href="https://www.linkedin.com/in/saniya-arora-408726181/"
 				style="color: #ffae42;text-decoration: underline;"> Saniya Arora</a></div>
 		<div class="orange"></div>

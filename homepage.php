@@ -25,9 +25,15 @@
 
 	<div class="whole animate-bottom" id="whole" style="">
 
-		<div class="header" id="header">
-			<img src="img/header.png" class="headerlogo" id="headerlogo">
-			<img src="img/textheader.png" id="textheader" class="textheader">
+		<div class="header" id="header" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+			<div>
+				<img src="img/header.png" class="headerlogo" id="headerlogo">
+				<img src="img/textheader.png" id="textheader" class="textheader">
+			</div>
+			<div style="color: yellow; font-size: 2.5vh; margin-top: 20px; margin-right: 3vw; padding: 10px;" id="typing">
+			Disruptive Innovation for a Satisfying Career...
+			</div>
+
 		</div>
 
 
@@ -134,7 +140,7 @@
 			</div>
 
 		</div>
-		<div class="column" id="column" style="text-align: center;background-color: #171790"> Website designed by <a
+		<div class="column" id="column" style="text-align: center;background-color: #171790; font-size: 1.7vh;"> Website designed and developed by <a
 				href="https://www.linkedin.com/in/saniya-arora-408726181/"
 				style="color: #ffae42;text-decoration: underline;"> Saniya Arora</a></div>
 		<div class="orange"></div>

@@ -311,16 +311,16 @@
 				<bold>Contact Deatils :- </bold>
 			</p>
 			<div style="padding: 5px;">
-				<p style="padding-top: 2vh; font-size: 2.5vh;"><b><u>Prof. Sandeep Arora</u></b></p>
+				<p style="padding-top: 2vh; font-size: 2.5vh;"><b>Prof. Sandeep Arora</b></p>
 				<p style="padding-top: 0.3vh;"><b>Coordinator B.Tech. Biotechnology</b></p>
 				<p style="padding-top: 0.3vh;">Mob. No.: +91-7055470555</p>
-				<p style="padding: 0.3vh 0;">Email: plantstress@gmail.com</p>
+				<p style="padding: 0.3vh 0;">Email: cbsh.dean@gmail.com, sandeep.arora@gbpuat-cbsh.ac.in</p>
 			</div>
 			<p style="padding-top: 2vh;"><b>Deptt. of Molecular Biology & Genetic Enginnering, College of Basic Sciences
 					&
 					Humanities, G. B. Pant University of Agriculture and Technology</b></p>
 			<p>Pantnagar 263145 Uttarakhand</p>
-			<p style="padding: 1vh 0;">Telephone No: 05944-233898(O)</p>
+			<p style="padding: 1vh 0;">Contact No: 70556 21235</p>
 
 		</div>
 
@@ -370,7 +370,7 @@
 			</div>
 
 		</div>
-		<div class="column" id="column" style="text-align: center;background-color: #171790"> Website designed by <a
+		<div class="column" id="column" style="text-align: center;background-color: #171790; font-size: 1.7vh;"> Website designed and developed by <a
 				href="https://www.linkedin.com/in/saniya-arora-408726181/"
 				style="color: #ffae42;text-decoration: underline;"> Saniya Arora</a></div>
 		<div class="orange"></div>

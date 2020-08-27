@@ -85,10 +85,10 @@
 			<p style="font-size: 2vmax;font-weight: bold;">
 				Admission Procedure:
 			</p>
-			<p>
-				Admission to the B.Tech. Biotechnology Program of G.B. Pant University of Agriculture and Technology
-				are through the Joint Entrance Examination (JEE).
-			</p>
+			<p style="font-size: 2vh;"> 
+				Admission to the B.Tech. Biotechnology Program at G.B. Pant University of Agriculture and Technology
+				are through the national level Joint Entrance Examination (JEE).  <span style="padding-left: 5px;">A total of 44 Seats are available under different categories.   
+			</span></p>
 			<p style="font-size: 2vmax;font-weight: bold;">
 				Fee Structure:
 			</p>
@@ -220,13 +220,32 @@
 			<p style="font-weight: bold;text-align: center;margin-top: 3vh">In addition to the fee above, students have
 				to pay food advance of Rs. 20,000/- each semester.</p> -->
 
-			<div style="text-align: center;display: flex;flex-wrap: wrap;justify-content: center;">
+			<div style="text-align: center;display: flex;flex-direction: column; flex-wrap: wrap;justify-content: center; align-items: center;">
 				<div>
-					<img src="./img/fee1.png" style="max-width: 70vw;" />
+					<p style="font-size: 2vh;">The B.Tech. (BIotech) program is administered under the Govt. of Uttarakhand approved Self Financing Scheme. Approximate Fee is rupees one lakh per Semester. 
+					</p>
+
+					<p style="font-size: 2vh;">
+						*Fee Concession is available under EWS and Tuition Fee Waiver Schemes
+					</p>
+					
+
 				</div>
-				<div>
+
+				<p style="font-size: 2.5vh;margin-top: 10vh "><b>Coordinator External Examination Cell</b></p>
+
+				<div class="card" style="width: 18rem; text-align: center; ">
+						<img class="card-img-top" src="img/Gauhar.JPG" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text" style="font-size: 2vh;"><b>Dr. Gohar Taj</b></p>
+							<p class="card-text">Email-Id: gohartajkhan@rediffmail.com</p>
+
+							
+						</div>
+					</div>
+				<!-- <div>
 					<img src="./img/fee2.png" style="max-width: 70vw;" />
-				</div>
+				</div> -->
 			</div>
 		</div>
 
@@ -277,7 +296,7 @@
 			</div>
 
 		</div>
-		<div class="column" id="column" style="text-align: center;background-color: #171790"> Website designed by <a
+		<div class="column" id="column" style="text-align: center;background-color: #171790; font-size: 1.7vh;"> Website designed and developed by <a
 				href="https://www.linkedin.com/in/saniya-arora-408726181/"
 				style="color: #ffae42;text-decoration: underline;"> Saniya Arora</a></div>
 		<div class="orange"></div>
