@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn=mysqli_connect("localhost","root","","cbsh")
+$conn=mysqli_connect("localhost","root","","cbshbiotech")
         or die('Error connecting to MySQL server.'); 
         function err($n)
         {
